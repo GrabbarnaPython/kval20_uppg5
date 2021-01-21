@@ -12,4 +12,3 @@ for i in range(rad):
         d1[i].append(d2[l])
 for z in range(len(d1)):
     print(d1[z])
-    print(d1[0][0])
