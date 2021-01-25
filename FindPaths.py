@@ -20,7 +20,5 @@ def lookAround(y, x, i, lista, coords): #sparar paths
     else:
         return lista
 
-
-
 def findPaths():
-    lookAround()
+    lookAround(x, y)
