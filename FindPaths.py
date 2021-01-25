@@ -1,4 +1,4 @@
-def lookAround(y, x, i, lista, coords): #sparar paths        
+def lookAround(x, y, i, lista, coords): #sparar paths        
     lista.append(coords[x][y])
 
     if i == 1:
