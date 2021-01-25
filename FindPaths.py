@@ -19,5 +19,4 @@ def lookAround(x, y, i, lista, coords): #sparar paths
         return lookAround(x, y + 1, i + 1, lista, coords)
     else:
         return lista
-
         
