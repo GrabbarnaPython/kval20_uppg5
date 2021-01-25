@@ -23,13 +23,11 @@ def randomlist():
     y = int(input("Antal rader? "))
     x = int(input("Antal kolumner? "))
     coords=[]
+    d2=[]
     for i in range(y):
         coords.append([])
-        print("vad ska rad",i+1,"vara. Skriv med mellanslag")
-        ap = input()
-        split = ap.split()
-        ma = map(int, split)
-        d2=list(ma)
+        for u in range(x):
+            d2[u] = random.randrange(0, 10)
         for l in range(x):
             coords[i].append([])
             coords[i][l].append(d2[l])
