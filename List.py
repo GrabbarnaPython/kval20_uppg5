@@ -23,6 +23,7 @@ def randomlist():
     y = int(input("Antal rader? "))
     x = int(input("Antal kolumner? "))
     coords=[]
+    d2=[]
     for i in range(y):
         coords.append([])
         for u in range(x):
