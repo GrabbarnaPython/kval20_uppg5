@@ -5,6 +5,10 @@ import FindPaths
 
 coords = List.makeLists()
 
-for x in range(len(coords)):
-    for y in range(len(coords[x])):
-        FindPaths.findPaths([x, y])
+lista = []
+
+print(FindPaths.lookAround(1, 1, 1, lista, coords))
+
+# for x in range(len(coords)):
+#     for y in range(len(coords[x])):
+#         FindPaths.findPaths([x, y])
